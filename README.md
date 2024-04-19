@@ -44,7 +44,7 @@ pip install streamlit-extras
 ```
 4. Run the streamlit using
 ```
-streanlit run Home.py
+streamlit run Home.py
 ```
 
 ## Resources
