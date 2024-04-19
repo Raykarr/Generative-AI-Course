@@ -6,10 +6,10 @@ def load_css():
         st.markdown('<style>{}</style>'.format(f.read()), unsafe_allow_html=True)
 
 def read_md(md_file):
-  img_url_path = ''
+  img_url_path = 'https://github.com/dataprofessor/streamlit-for-generative-ai/blob/master'
   img_url_suffix = '?raw=true'
   
-  md_url_path = ''
+  md_url_path = 'https://raw.githubusercontent.com/dataprofessor/streamlit-for-generative-ai/master/content'
   md_lesson_url = f'{md_url_path}/{md_file}'
   response = requests.get(md_lesson_url)
   content = response.text

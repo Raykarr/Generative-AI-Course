@@ -3,17 +3,17 @@
 In this lesson, we'll get you up to speed in using OpenAI for text generation and we'll start from scratch by showing you how to get an API key, installing the `openai` library in Python and up to generating text and build simple ChatGPT-like chatbot.
 
 ## Table of Contents
-1. What is OpenAI?
-2. Functionalities
-3. GPT for Text Generation
-4. Getting your own OpenAI API key
-5. Installing OpenAI
-6. Setting the OpenAI API key on a local computer
-7. OpenAI for text generation
-8. Using the Chat Completion API
-9. Creating our simple ChatGPT-like chatbot
-10. Spicing up the LLM generated response
-11. Summary
+1. [What is OpenAI?](#1-what-is-openai)
+2. [Functionalities](#2-functionalities-of-openai)
+3. [GPT for Text Generation](#3-gpt-for-text-generation)
+4. [Getting your own OpenAI API key](#4-getting-your-own-openai-apikey)
+5. [Installing OpenAI](#5-installing-openai-python-library)
+6. [Setting the OpenAI API key on a local computer](6-setting-the-openai-api-key-on-a-local-computer)
+7. [OpenAI for text generation](#7-openai-for-text-generation)
+8. [Using the Chat Completion API](#8-using-the-chat-completion-api)
+9. [Creating our simple ChatGPT-like chatbot](#9-creating-our-simple-chatgpt-like-chatbot)
+10. [Spicing up the LLM generated response](#10-spicing-up-the-llm-generated-response)
+11. [Summary](#11-summary)
 
 ## 1. What is OpenAI?
 
@@ -63,13 +63,15 @@ That's all it takes to create your own OpenAI API key, which starts with `sk-`.
 
 Let's have a look at a short recording showing how to get your own OpenAI API key:
 
-
+<p align="center">
+   <img src="../img/lesson-2-getting-api-key.gif" width="90%">
+</p>
 
 > **💡 Note**
 >
 > Make sure to not share your API key in public repositories as others may use your API key and in doing so consume your API credits.
 
-Further information for safely using API keys is summarized in the blog, [8 tips for securely using API keys]
+Further information for safely using API keys is summarized in the blog, [8 tips for securely using API keys](https://blog.streamlit.io/8-tips-for-securely-using-api-keys/)
 
 ## 5. Installing OpenAI Python library
 
@@ -193,6 +195,9 @@ print(completion.choices[0].message)
 
 The code snippet mentioned above works in a Colab or Jupyter notebook environment, as well as in a command line interface. For the latter, if you save it as a file (for instance as `blog.py`)  you can run it in the command line by typing python `blog.py`
 
+<p align="center">
+   <img src="../img/lesson-2-blog-py.gif" width="90%">
+</p>
 
 ## 9. Creating our simple ChatGPT-like chatbot 
 
@@ -239,6 +244,10 @@ while True:
 ```
 
 The above code snippet works in a Colab or Jupyter notebook and also works in the command line, when saved as a file such as chatbot.py and then running it via `python chatbot.py`
+
+<p align="center">
+   <img src="../img/lesson-2-chatbot-py.gif" width="90%">
+</p>
 
 ## 10. Spicing up the LLM generated response
 

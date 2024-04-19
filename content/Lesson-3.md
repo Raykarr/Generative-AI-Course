@@ -1,12 +1,12 @@
-# Lesson 3 <br> Using open source LLM models from Hugging Face Hub
+# 📖 Lesson 3 <br> Using open source LLM models from Hugging Face Hub
 
 In this lesson, we'll be introducing the Hugging Face Hub and focus on the Models feature. Particularly, we'll explore the use of LLM models that are hosted on the Hugging Face Hub platform for building LLM tools.
 
 ## Table of Contents
-1. What is Hugging Face Hub?
-2. Hugging Face Models
-3. Using a Hugging Face Model
-4. Summary
+1. [What is Hugging Face Hub?](#1-what-is-hugging-face-hub)
+2. [Hugging Face Models](#2-hugging-face-models)
+3. [Using a Hugging Face Model](#3-using-a-hugging-face-model)
+4. [Summary](#4-summary)
 
 ## 1. What is Hugging Face Hub?
 
@@ -14,14 +14,16 @@ The Hugging Face Hub is an open-source platform that hosts over 120,000 models, 
 
 ## 2. Hugging Face Models
 
-Hugging Face Models is available at link and a screenshot is shown below:
+Hugging Face Models is available at https://huggingface.co/models and a screenshot is shown below:
 
-
+<p align="center">
+  <img src="../img/lesson-3-hugging-face-hub-models.png" width="90%">
+</p>
 
 As we can see in the left side panel, models are conveniently categorized into various Tasks and in this lesson we'll focus on LLMs which can be found in _Text2Text Generation_ under the *Natural Language Processing* sub-heading.
 
 
-Let's say that we want to use Google's FLAT-T5 base model, we can navigate to its model page (see screenshot below).
+Let's say that we want to use Google's [FLAT-T5 base](https://huggingface.co/google/flan-t5-base) model, we can navigate to its model page (see screenshot below).
 
 **Model card**
 
@@ -49,6 +51,9 @@ We can test the model by experimenting with the _Hosted inference API_ found on 
 
 Example apps using the model as deployed on Spaces is listed and would serve as a good source of inspiration.
 
+<p align="center">
+  <img src="../img/lesson-3-huggingface.co_google_flan-t5-base.png" width="90%">
+</p>
 
 [//]: # (Hugging Face Model Page Diagram https://excalidraw.com/#json=Wk098OU44goApcrItbIlT,NZpeTWLp1EbrU96obSt9IQ)
 

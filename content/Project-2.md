@@ -4,10 +4,13 @@
 
 In this project, we're going to build a chatbot in Python using Streamlit for the frontend and the open source Llama 2 LLM model from Meta in the backend.
 
+<p align="center">
+   <img src="../img/project-2-demo-app.png" width="65%">
+</p>
 
 ## Try the app
 
-[![Streamlit App](https://llama2.streamlit.app/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://llama2.streamlit.app/)
 
 ## Instructions on using the app
 
@@ -80,7 +83,7 @@ def clear_chat_history():
 st.sidebar.button('Clear Chat History', on_click=clear_chat_history)
 
 # Function for generating LLaMA2 response
-# Refactored from 
+# Refactored from https://github.com/a16z-infra/llama2-chatbot
 def generate_llama2_response(prompt_input):
     string_dialogue = "You are a helpful assistant. You do not respond as 'User' or pretend to be 'User'. You only respond once as 'Assistant'."
     for dict_message in st.session_state.messages:
