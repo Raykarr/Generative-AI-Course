@@ -3,7 +3,18 @@
 </p>
 
 ## About
-> The *Streamlit for Generative AI* course will show you how to use Streamlit to build large language model (LLM) powered apps. Finally you can deploy the Streamlit app to the cloud and share with the community.
+> The *Generative AI* course will show you how to use Streamlit to build large language model (LLM) powered apps. Finally you can deploy the Streamlit app to the cloud and share with the community.
+>
+> About the Course:
+The Generative AI course offers a comprehensive guide on utilizing Streamlit to develop large language model (LLM) powered applications.
+
+Course Objectives:
+Learn to leverage Streamlit for building interactive and user-friendly LLM-powered apps.
+Gain insights into utilizing various Python libraries for Generative AI, including OpenAI and Hugging Face.
+Understand the process of deploying Streamlit apps to the cloud and sharing them with the community.
+
+Overview:
+The course consists of lessons covering different aspects of Streamlit and Generative AI, along with hands-on projects aimed at practical application of the concepts learned.
 
 ## Table of contents
 - [**Lesson 0** - Getting up to speed with Streamlit](./content/Lesson-0.md)
@@ -39,19 +50,8 @@
   </tr>
 </table>
 
-## Citing us
-Please use the following to cite this content:
 ```
-@misc{st4genai,
-    author = {Chanin Nantasenamat},
-    title = {Streamlit for Generative AI Course},
-    howpublished = {Streamlit Open Source},
-    url = {\url{https://streamlit.io/}},
-    year = {2023}
-}
+Code Updated by Kaustubh Raykar [https://github.com/Raykarr]
+and 
+Srinivas Kota [https://github.com/Srinivas-162003]
 ```
-
-## Spread the word
-Like the course? Help us spread the word!
-- [Twitter](https://twitter.com/streamlit)
-- [LinkedIn](https://www.linkedin.com/company/streamlit/)
