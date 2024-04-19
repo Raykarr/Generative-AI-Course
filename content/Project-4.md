@@ -4,10 +4,13 @@
 
 In this project, we're going to build a coding chatbot in Python using Streamlit for the frontend and the open source Code Llama LLM model from Meta in the backend.
 
+<p align="center">
+   <img src="../img/project-2-demo-app.png" width="65%">
+</p>
 
 ## Try the app
 
-[![Streamlit App]
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://code-llama.streamlit.app/)
 
 ## Instructions on using the app
 

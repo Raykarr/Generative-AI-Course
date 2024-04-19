@@ -1,14 +1,13 @@
-# 📖 Lesson 1 An Introduction to Generative AI
---- 
-<br> 
+# 📖 Lesson 1 <br> An Introduction to Generative AI
 
 In this lesson, we'll cover the fundamentals of the exciting field of generative AI and large language models.
 
 ## Table of Contents
-2. Rise of Generative AI
-3. Benefits of Generative AI?
-4. Building Generative AI apps
-5. Generative AI app ideas
+1. [What is Generative AI?](#1-what-is-generative-ai)
+2. [Rise of Generative AI](#2-rise-of-generative-ai)
+3. [Benefits of Generative AI?](#3-benefits-of-generative-ai)
+4. [Building Generative AI apps](#4-building-generative-ai-apps)
+5. [Generative AI app ideas](#5-generative-ai-app-ideas)
 
 ## 1. What is Generative AI?
 
@@ -55,12 +54,14 @@ As mentioned above, we can use generative AI in the data processing phase where 
 
 Let's now think about some of the generative AI apps that we can build.
 
-Here are only a few ideas to get you started and there are many more that you can build. Proceed to the next lesson to get started!
--Chatbot: Create a chatbot with unique characteristics.
--YouTube Summarization: Develop an app to summarize YouTube videos.
--Research Paper Summarization: Make an app that summarizes research papers.
--Q&A over Articles: Build an app for asking questions about articles.
--Q&A over Documentation: Create a tool to ask questions on documentation content.
--Q&A over Data: Design an app to query CSV data.
 
--These ideas leverage a tech stack involving LLM and Streamlit, with LangChain and LlamaIndex for specific functionalities. Examples include various Streamlit apps and blogs detailing their creation process.
+| App ideas | Description | Tech stack | Example |
+|---|---|---|---|
+| Chatbot | Build a generic chatbot or chatbot with a personality | `LLM`, `Streamlit` | [App](https://llama2.streamlit.app/), [Blog](https://blog.streamlit.io/how-to-build-a-llama-2-chatbot/) |
+| YouTube summarization | Summarize a Youtube video (load video using LangChain's data loader) | `LLM`, `LangChain`, `Streamlit` |  |
+| Research paper summarization | Summarize a research article (TXT, HTML or PDF) | `LLM`, `Streamlit` | [App](https://langchain-text-summarization.streamlit.app/), [Blog](https://blog.streamlit.io/langchain-tutorial-3-build-a-text-summarization-app/) |
+| Questions & Answer over articles |  Ask questions about an article (TXT, HTML or PDF) | `LLM`, `LangChain`, `Streamlit` | [App](https://langchain-ask-the-doc.streamlit.app/), [Blog](https://blog.streamlit.io/langchain-tutorial-4-build-an-ask-the-doc-app/) |
+| Questions & Answer over Docs | Ask questions on contents from an open source Documentation website | `LLM`, `LlamaIndex`, `Streamlit` | [App](https://llamaindex-chat-with-docs.streamlit.app/), [Blog](https://blog.streamlit.io/build-a-chatbot-with-custom-data-sources-powered-by-llamaindex/) |
+| Questions & Answer over Data | Ask questions about a CSV data | `LLM`, `LangChain`, `Streamlit` | [App](https://langchain-ask-the-data.streamlit.app/), [Blog](https://blog.streamlit.io/langchain-tutorial-5-build-an-ask-the-data-app/) |
+
+Here are only a few ideas to get you started and there are many more that you can build. Proceed to the next lesson to get started!

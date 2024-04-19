@@ -4,16 +4,18 @@
 
 In this project, we're going to build a HuggingChat chatbot in Python using Streamlit for the frontend and the HuggingChat LLM model from Hugging Face in the backend.
 
-
+<p align="center">
+   <img src="../img/project-3-demo-app.png" width="65%">
+</p>
 
 ## Try the app
 
-[![Streamlit App]
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://hugchat.streamlit.app/)
 
 ## Instructions on using the app
 
 Here are instructions for using the app:
-- **Step 1.** Go to the HugChat chatbot  or your own deployed instance
+- **Step 1.** Go to the HugChat chatbot at https://hugchat.streamlit.app/ or your own deployed instance
 - **Step 2.** Enter your own HuggingFace login credentials in the sidebar.
 - **Step 3.** Enter a prompt message in the chat input box on the main panel (found at the bottom portion of the page) and hit on `Enter`.
 
@@ -68,7 +70,7 @@ with st.sidebar:
             st.warning('Please enter your credentials!', icon='⚠️')
         else:
             st.success('Proceed to entering your prompt message!', icon='👉')
-    st.markdown
+    st.markdown('📖 Learn how to build this app in this [blog](https://blog.streamlit.io/how-to-build-an-llm-powered-chatbot-with-streamlit/)!')
     
 # Store LLM generated responses
 if "messages" not in st.session_state.keys():
