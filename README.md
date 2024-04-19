@@ -5,15 +5,15 @@
 ## About
 > The *Generative AI* course will show you how to use Streamlit to build large language model (LLM) powered apps. Finally you can deploy the Streamlit app to the cloud and share with the community.
 >
-> About the Course:
+### About the Course:
 The Generative AI course offers a comprehensive guide on utilizing Streamlit to develop large language model (LLM) powered applications.
 
-Course Objectives:
+### Course Objectives:
 Learn to leverage Streamlit for building interactive and user-friendly LLM-powered apps.
 Gain insights into utilizing various Python libraries for Generative AI, including OpenAI and Hugging Face.
 Understand the process of deploying Streamlit apps to the cloud and sharing them with the community.
 
-Overview:
+### Overview:
 The course consists of lessons covering different aspects of Streamlit and Generative AI, along with hands-on projects aimed at practical application of the concepts learned.
 
 ## Table of contents
@@ -27,6 +27,25 @@ The course consists of lessons covering different aspects of Streamlit and Gener
 - [**Project 2** - Build a Llama 2 chatbot](./content/Project-2.md)
 - [**Project 3** - Build a HugChat chatbot](./content/Project-3.md)
 - [**Project 4** - Build a Code Llama chatbot](./content/Project-4.md)
+
+### Installation
+1. Clone this repository -
+```
+git clone https://github.com/Raykarr/Generative-AI-Course
+```
+2. Go to the location of the project in your pc
+```
+cd "file location"
+```
+3. Install the requirements of the project
+```
+pip install streamlit
+pip install streamlit-extras
+```
+4. Run the streamlit using
+```
+streanlit run Home.py
+```
 
 ## Resources
 - [Build powerful generative AI apps](https://streamlit.io/generative-ai) - Streamlit resources on building LLM-powered apps.
