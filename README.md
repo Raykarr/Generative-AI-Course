@@ -66,9 +66,8 @@ streamlit run Home.py
     <td><a href="https://www.langchain.com/">LangChain</a></td>
   </tr>
 </table>
-
-```
-Code Updated by Kaustubh Raykar [https://github.com/Raykarr]
+<br>
+<hr>
+Code Updated by Kaustubh Raykar [https://github.com/Raykarr)
 and 
-Srinivas Kota [https://github.com/Srinivas-162003]
-```
+Srinivas Kota [https://github.com/Srinivas-162003)
