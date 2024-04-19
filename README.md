@@ -4,8 +4,6 @@
 
 ## About
 > The *Generative AI* course will show you how to use Streamlit to build large language model (LLM) powered apps. Finally you can deploy the Streamlit app to the cloud and share with the community.
->
-### About the Course:
 The Generative AI course offers a comprehensive guide on utilizing Streamlit to develop large language model (LLM) powered applications.
 
 ### Course Objectives:
