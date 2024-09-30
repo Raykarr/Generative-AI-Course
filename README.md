@@ -69,5 +69,3 @@ streamlit run Home.py
 <br>
 <hr>
 Code Updated by Kaustubh Raykar [https://github.com/Raykarr)
-and 
-Srinivas Kota [https://github.com/Srinivas-162003)
